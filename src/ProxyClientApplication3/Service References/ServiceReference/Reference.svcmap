@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="02d4c402-aee8-416e-bf16-35fd0b034afb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.Collection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:8731/WcfDataTypeService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="cgeers.wordpress.com.wsdl" MetadataType="Wsdl" ID="da084904-5556-4ba9-b03e-fc9a81d2d644" SourceId="1" SourceUrl="net.tcp://localhost:8731/WcfDataTypeService/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="732fae1e-32c7-4563-ab4d-8d949bd4d9c4" SourceId="1" SourceUrl="net.tcp://localhost:8731/WcfDataTypeService/mex" />
+    <MetadataFile FileName="cgeers.wordpress.com.xsd" MetadataType="Schema" ID="1fe44e14-5e70-44aa-a356-80ab41eed912" SourceId="1" SourceUrl="net.tcp://localhost:8731/WcfDataTypeService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="fff5dfaf-f02e-493b-9607-a36a63f95fe9" SourceId="1" SourceUrl="net.tcp://localhost:8731/WcfDataTypeService/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="a35dbf2e-a8db-4b81-aadb-bd8a467b3493" SourceId="1" SourceUrl="net.tcp://localhost:8731/WcfDataTypeService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
